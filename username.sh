@@ -2,7 +2,7 @@
 # username.sh 
 # Tony Bautista 
 echo " Please create a username using lowerecase letters, numbers and an underscore."
-echo "The username must start with a lowerecase letter and between 3-12 charachters."
+echo "The username must start with a lowerecase letter and between 3-12 characters."
 echo "Enter a username: "
 read USERNAME
 while echo "$USERNAME" | egrep -v "^[a-z] [0-9,] [_] {3-12}$" > /dev/null 2>&1
