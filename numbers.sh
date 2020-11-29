@@ -1,9 +1,9 @@
-! /bin/bash
+#! /bin/bash
 # numbers.sh
 # Tony Bautista
 
 echo "Enter a positive number: "
-read - r NUMBER
+read -r NUMBER
 
 i=1
 
